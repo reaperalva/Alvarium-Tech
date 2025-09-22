@@ -120,12 +120,12 @@ if (!empty($comentarios) && isset($comentarios[0]['mensaje_empresa'])) {
 </head>
 <body>
     <!-- Logo en el encabezado - MOVIDO A LA IZQUIERDA -->
-    <img src="<?php echo $info['logo'] ?? 'Logo'; ?>" alt="Logo" class="logo-header">
+    <img src="../<?php echo $info['logo'] ?? 'Logo'; ?>" alt="Logo" class="logo-header">
 
     <div class="container" id="galleryContainer">
         <!-- Sección 1 -->
         <div class="section active" data-index="0">
-            <div class="section-content" style="background-image: url('<?php echo $info['img1'] ?? 'Título por defecto'; ?>')"></div>
+            <div class="section-content" style="background-image: url('../<?php echo $info['img1'] ?? 'Título por defecto'; ?>')"></div>
             <div class="section-overlay" style="background-color: rgba(0, 0, 0, 0.4)"></div>
             <h1 class="section-title"><?php echo $info['titulo_pag1'] ?? 'Título por defecto'; ?></h1>
             <p class="section-subtitle"><?php echo $info['mensajepag1'] ?? 'Título por defecto'; ?></p>
@@ -135,7 +135,7 @@ if (!empty($comentarios) && isset($comentarios[0]['mensaje_empresa'])) {
         
         <!-- Sección 2 -->
         <div class="section next" data-index="1">
-            <div class="section-content" style="background-image: url('<?php echo $info['img2'] ?? 'Título por defecto'; ?>')"></div>
+            <div class="section-content" style="background-image: url('../<?php echo $info['img2'] ?? 'Título por defecto'; ?>')"></div>
             <div class="section-overlay" style="background-color: rgba(0, 0, 0, 0.4)"></div>
             <h1 class="section-title"><?php echo $info['titulo_pag2'] ?? 'Título por defecto'; ?></h1>
             <p class="section-text"><?php echo $info['mensajepag2'] ?? 'Título por defecto'; ?></p>
@@ -144,7 +144,7 @@ if (!empty($comentarios) && isset($comentarios[0]['mensaje_empresa'])) {
         
         <!-- Sección 3 -->
         <div class="section" data-index="2">
-            <div class="section-content" style="background-image: url('<?php echo $info['img3'] ?? 'Título por defecto'; ?>')"></div>
+            <div class="section-content" style="background-image: url('../<?php echo $info['img3'] ?? 'Título por defecto'; ?>')"></div>
             <div class="section-overlay" style="background-color: rgba(0, 0, 0, 0.4)"></div>
             <h1 class="section-title"><?php echo $info['titulo_pag3'] ?? 'Título por defecto'; ?></h1>
             <p class="section-text"><?php echo $info['mensajepag3'] ?? 'Título por defecto'; ?></p>
