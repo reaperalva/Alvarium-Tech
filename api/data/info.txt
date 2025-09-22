@@ -1,0 +1,16 @@
+titulo_pag1: LLevate la mejor Hamburguesa al Mejor Precio
+mensajepag1: Tenemos una gran variedad de platos
+titulo_pag2: haber esto otro
+mensajepag2: este es otro canbio
+titulo_pag3: Pagina 3
+mensajepag3: Prueba pagina 3
+img1: images/img_68cdee9c56dae1.11711451.jpg
+img2: images/img_68cc9a226bb112.63009105.jpg
+img3: images/img_68cc9a0f04fc27.25738780.jpg
+img4: images/img_68cc9a0f052119.13695992.jpg
+img5: images/img_68cc9a0f053598.32328306.jpg
+img6: images/img_68cc9a0f054c85.20381268.jpg
+logo: images/img_68cdee9c558cb7.29173018.png
+texto_boton_cta: Que esperas!!!
+telefono_vendedor_whatsapp: +584129753801
+nombre_empresa: Alvarium Tec
