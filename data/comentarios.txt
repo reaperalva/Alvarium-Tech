@@ -1,8 +1,0 @@
---- Nuevo Comentario ---
-comentario: Un excelente servicio y atencion, solucionaron mi problema los recomiendo
-autor: Un cliente deliz
-mensaje_empresa: Esta slisto paera superarte
---- Nuevo Comentario ---
-comentario: Una experiencia unica el dinero mejor pagado por mi empreda a esta otra empreza
-autor: Carlos Rondon
-mensaje_empresa: Que esperas lleva tu empresa al siguiente nivel

@@ -1,4 +1,0 @@
-cta-link-1:6
-cta-link-2:1
-cta-link-3:2
-cta-link-4:2
