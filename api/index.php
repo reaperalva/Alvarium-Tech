@@ -114,8 +114,8 @@ if (!empty($comentarios) && isset($comentarios[0]['mensaje_empresa'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo $info['nombre_empresa'] ?? 'razon'; ?></title>
-    <link rel="icon" type="image/png" href="<?php echo $info['logo'] ?? 'Logo'; ?>">
-    <link rel="stylesheet" href="css/stylo.css">
+    <link rel="icon" type="image/png" href="../<?php echo $info['logo'] ?? 'Logo'; ?>">
+    <link rel="stylesheet" href="../css/stylo.css">
    
 </head>
 <body>
