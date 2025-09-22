@@ -12,16 +12,8 @@
   },
   "routes": [
     {
-      "src": "/",
+      "src": "/(.*)",
       "dest": "/index.php"
-    },
-    {
-      "src": "/login",
-      "dest": "/login.php"
-    },
-    {
-      "src": "/prueba",
-      "dest": "/prueba.php"
     }
   ]
 }
