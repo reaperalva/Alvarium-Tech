@@ -5,9 +5,6 @@
     },
     "login.php": {
       "runtime": "vercel-php@0.7.3"
-    },
-    "prueba.php": {
-      "runtime": "vercel-php@0.7.3"
     }
   },
   "routes": [
