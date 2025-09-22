@@ -2,26 +2,12 @@
   "functions": {
     "index.php": {
       "runtime": "vercel-php@0.7.3"
-    },
-    "login.php": {
-      "runtime": "vercel-php@0.7.3"
-    },
-    "prueba.php": {
-      "runtime": "vercel-php@0.7.3"
     }
   },
   "routes": [
     {
-      "src": "/",
+      "src": "/(.*)",
       "dest": "/index.php"
-    },
-    {
-      "src": "/login",
-      "dest": "/login.php"
-    },
-    {
-      "src": "/prueba",
-      "dest": "/prueba.php"
     }
   ]
 }
